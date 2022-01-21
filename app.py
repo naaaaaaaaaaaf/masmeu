@@ -11,7 +11,7 @@ import threading
 import configparser
 
 config = configparser.ConfigParser()
-config.read('configi.ini')
+config.read('config.ini')
 print(config['mastodon']['domain'])
 meu = ["か゛ら゛出゛て゛く゛る゛め゛う゛〜゛〜゛〜゛！゛！゛","に゛入゛っ゛て゛く゛る゛め゛う゛ー゛！゛！゛！゛！゛！゛"]
 pass_rules = [
